@@ -12,7 +12,7 @@
   } else {
     root['Chartist'] = factory();
   }
-}(this, function () {
+}(this || {}, function () {
 
 /* Chartist.js 0.10.0
  * Copyright © 2016 Gion Kunz
